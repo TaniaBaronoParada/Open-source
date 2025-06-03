@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tania Barón - Portafolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .subtitle {
+      font-size: 1.1em;
+      color: #cccccc;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #444;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tania Barón</h1>
+    <p class="subtitle">Perfil profesional | En formación tecnológica</p>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>
+      Me considero una persona comprometida, creativa y en constante desarrollo personal y profesional. Actualmente me encuentro fortaleciendo mis conocimientos en tecnología y análisis de sistemas.
+    </p>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Aprendizaje autónomo y adaptabilidad</li>
+      <li>Pensamiento lógico y estructurado</li>
+      <li>Redacción profesional y comunicación clara</li>
+      <li>Organización y gestión del tiempo</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Educación</h2>
+    <ul>
+      <li>Formación universitaria en áreas relacionadas con el desarrollo tecnológico</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Puedes escribirme a: <a href="mailto:taniabaronp@gmail.com">taniabaronp@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Tania Barón. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
