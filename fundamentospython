@@ -1,0 +1,149 @@
+
+# 1. Intercambio sin variable auxiliar
+a, b = 5, 3
+a, b = b, a
+print("1:", a, b)
+
+# 2. Suma de cuadrados
+a, b = 5, 3
+c = a*2 + b*2
+print("2:", c)
+
+# 3. Conversión de tipos
+n = 7
+f = float(n)
+i = int(f)
+print("3:", n, f, i)
+
+# 4. Redondeo y formato
+n = 17.8567
+resultado = "Resultado: {:.2f}".format(n)
+print("4:", resultado)
+
+# 5. Concatenación de variables
+nombre = "Juan"
+edad = 25
+mensaje = f"Hola, mi nombre es {nombre} y tengo {edad} años."
+print("5:", mensaje)
+
+# 6. Cálculo de edad actual
+anio_actual = 2025
+anio_nacimiento = 2000
+edad = anio_actual - anio_nacimiento
+print("6:", edad)
+
+# 7. Cuenta regresiva con variables
+x = 10
+while x >= 0:
+    print("7:", x)
+    x -= 1
+
+# 8. Valor absoluto sin usar abs()
+n = -20
+valor_abs = n if n >= 0 else -n
+print("8:", valor_abs)
+
+# 9. Incremento/decremento según paridad
+n = 6
+n = n + 1 if n % 2 != 0 else n - 1
+print("9:", n)
+
+# 10. Máximo entre tres números
+a, b, c = 5, 10, 3
+mayor = max(a, b, c)
+print("10:", mayor)
+
+# Sección 2: Operadores Relacionales
+
+# 11. Verificación de rango
+x = 50
+print("11:", 10 <= x <= 100)
+
+# 12. Comparación de strings (ignorar mayúsculas)
+a, b = "hola", "HOLA"
+print("12:", a.lower() == b.lower())
+
+# 13. Igualdad entre tres variables
+a, b, c = 7, 7, 7
+print("13:", a == b == c)
+
+# 14. Presencia en lista
+numeros = [1, 2, 3, 4, 5]
+x = 3
+print("14:", x in numeros)
+
+# 15. Divisibilidad por 3 y 5
+n = 15
+print("15:", n % 3 == 0 and n % 5 == 0)
+
+# 16. Números en orden estricto
+a, b, c = 1, 2, 3
+print("16:", a < b < c)
+
+# 17. Comparación doble
+x, a, b = 5, 1, 10
+print("17:", a < x < b)
+
+# 18. Relación proporcional
+a, b = 10, 5
+print("18:", a == 2 * b)
+
+# 19. Cambio de signo si negativo
+x = -3
+x = -x if x < 0 else x
+print("19:", x)
+
+# 20. Detección de tipo
+x = 3.14
+print("20:", type(x)._name_)
+
+# Sección 3: Operadores Lógicos
+
+# 21. ¿Puede votar?
+edad = 20
+documento = True
+print("21:", edad >= 18 and documento)
+
+# 22. Control de acceso lógico
+vip = False
+entrada = True
+ebrio = False
+acceso = vip or (entrada and not ebrio)
+print("22:", acceso)
+
+# 23. Validación XOR
+cond1 = True
+cond2 = False
+print("23:", cond1 != cond2)
+
+# 24. Validación compuesta múltiple
+n = 6
+print("24:", n > 0 and (n % 2 == 0 or n % 3 == 0))
+
+# 25. Condición contradictoria
+x = 4
+print("25:", x > 5 and x < 1)
+
+# 26. Negación lógica
+cond = not (x <= 10)
+print("26:", cond)
+
+# 27. Aprobación de estudiante
+nota = 3.2
+asistencia = 85
+print("27:", nota >= 3.0 and asistencia >= 80)
+
+# 28. Simulación de alarma
+temperatura = 39
+humedad = 85
+alarma = (temperatura < 0 or temperatura > 38) and humedad >= 80
+print("28:", alarma)
+
+# 29. Contraseña segura
+passwd = "abc12345"
+segura = len(passwd) > 8 and any(char.isdigit() for char in passwd)
+print("29:", segura)
+
+# 30. Doble negación lógica
+acceso = True
+print("30:", not (not acceso))
